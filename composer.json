@@ -1,13 +1,13 @@
 {
-	"name": "myth/auth",
-	"type": "library",
+	"name": "codeigniterplus/auth",
+	"type": "plugin",
 	"description": "Flexible authentication/authorization system for CodeIgniter 4.",
 	"keywords": [
 		"codeigniter",
 		"authentication",
 		"authorization"
 	],
-	"homepage": "https://github.com/lonnieezell/myth-auth",
+	"homepage": "https://github.com/OCIPlus/Auth",
 	"license": "MIT",
 	"authors": [
 		{
@@ -36,7 +36,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Myth\\Auth\\": "src"
+			"Auth": "App/../plugins/Auth"
 		},
 		"exclude-from-classmap": [
 			"**/Database/Migrations/**"
